@@ -1,0 +1,92 @@
+<html>
+<style>
+.vertical-menu {
+    width: 300px;
+}
+
+.vertical-menu a {
+    background-color: #000;
+    color: white;
+    display: block;
+    padding: 35px;
+    text-decoration: none;
+    font-size:1.75em;
+    font-family: Helvetica;
+    margin-top: 40px;
+}
+
+.vertical-menu a:hover {
+    background-color: #070807;
+   padding-left: 100px;
+    text-decoration: overline;
+    transition: 1.7s;
+    
+}
+
+.vertical-menu a.active {
+    color: #0CA16F;
+    font-size:2.75em;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+svg {
+  height: 140vh;
+  width: 80vw;
+  align: center;
+}
+
+path {
+  stroke-dasharray: 50;
+  animation: draw 1s infinite;
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 5
+  }
+  to {
+    stroke-dashoffset: 200;
+  }
+}
+
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+p { 
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 5px;
+    margin-top: 300px;
+    margin-left: -1050px;
+    margin-right: 66px;
+    word-spacing: 5px;
+ text-indent:2em;
+ width:500px;
+}
+ .p2 { 
+   
+    margin-top: 30px;
+}
+body {
+  color: #FFFFFF;
+}
+
+div {
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  text-color: 
+}
+
+</style>

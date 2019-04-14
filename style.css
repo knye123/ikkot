@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+ 
+.nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 50px;
+  height: 40px;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #FD421B;
+  text-decoration:underline;
+}
+
+.nav a.active {
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 900px) {
+  .nav li {
+    width: 300px;
+    border-bottom: 10px;
+    height: 50px;
+    line-height: 120px;
+    font-size: 1.6em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+  
+path {
+  stroke-dasharray: 5;
+  animation: draw 3s infinite;
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 50;
+  }
